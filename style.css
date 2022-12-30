@@ -43,7 +43,7 @@ a {
 button {
     height: 80px;
     width: 80px;
-    border: 0;
+    border: 1px solid rgb(208, 14, 98);
     border-radius: 30px;
     margin: 8.5px;
     font-size: 20px;
@@ -71,4 +71,7 @@ button {
 #display::-webkit-scrollbar {
     display: block;
     height: 3px;
+}
+.btn-equal{
+    height: 170px;
 }
