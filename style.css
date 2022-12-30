@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+
+body {
+    font-family: sans-serif;
+    background: rgb(72, 0, 14);
+    margin-right: 200px;
+}
+h1{
+    display: flex;
+    color: rgb(249, 249, 249);
+    /* text-align: center; */
+    margin-left: 44.5%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.tree{
+    display: block;
+    margin-left: 75%;
+    margin-top: -8%;
+    width: 400px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    display: block;
+    width: 400px;
+    border: 1px solid rgb(164, 149, 149);
+    margin: 200px;
+    margin-top: -50%;
+    margin-left: 35%;
+    border-radius: 2px;
+}
+
+button {
+    height: 80px;
+    width: 80px;
+    border: 0;
+    border-radius: 30px;
+    margin: 8.5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms ease;
+    background-color: rgb(232, 179, 200);
+}
+
+#display {
+    margin: 5px 5px;
+    padding-right: 10px;
+    height: 50px;
+    width: auto;
+    max-width: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 30px;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+    background-color: rgb(204, 95, 95);
+    color: rgb(0, 0, 0);
+}
+
+#display::-webkit-scrollbar {
+    display: block;
+    height: 3px;
+}
